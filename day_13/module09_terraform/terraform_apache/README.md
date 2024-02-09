@@ -37,7 +37,7 @@ variable "user_data" {
 ```
 
 - Data Block
-``hcl
+```hcl
 data "aws_ami" "amazon_linux" {
   most_recent = true
   owners      = ["amazon"]
